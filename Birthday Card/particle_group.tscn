@@ -1,0 +1,112 @@
+[gd_scene load_steps=2 format=3 uid="uid://cmx5xjksbkrdh"]
+
+[ext_resource type="PackedScene" uid="uid://dbm4nferl4eax" path="res://Particle.tscn" id="1_mp1m6"]
+
+[node name="ParticleGroup" type="Node2D"]
+
+[node name="Node2D" parent="." instance=ExtResource("1_mp1m6")]
+
+[node name="Node2D2" parent="." instance=ExtResource("1_mp1m6")]
+position = Vector2(22, 1)
+
+[node name="Node2D3" parent="." instance=ExtResource("1_mp1m6")]
+position = Vector2(43, 1)
+
+[node name="Node2D4" parent="." instance=ExtResource("1_mp1m6")]
+position = Vector2(-1, 20)
+
+[node name="Node2D5" parent="." instance=ExtResource("1_mp1m6")]
+position = Vector2(21, 21)
+
+[node name="Node2D6" parent="." instance=ExtResource("1_mp1m6")]
+position = Vector2(42, 21)
+
+[node name="Node2D7" parent="." instance=ExtResource("1_mp1m6")]
+position = Vector2(-1, 43)
+
+[node name="Node2D8" parent="." instance=ExtResource("1_mp1m6")]
+position = Vector2(21, 44)
+
+[node name="Node2D9" parent="." instance=ExtResource("1_mp1m6")]
+position = Vector2(42, 44)
+
+[node name="Node2D10" parent="." instance=ExtResource("1_mp1m6")]
+position = Vector2(65, 2)
+
+[node name="Node2D11" parent="." instance=ExtResource("1_mp1m6")]
+position = Vector2(87, 3)
+
+[node name="Node2D12" parent="." instance=ExtResource("1_mp1m6")]
+position = Vector2(108, 3)
+
+[node name="Node2D13" parent="." instance=ExtResource("1_mp1m6")]
+position = Vector2(64, 22)
+
+[node name="Node2D14" parent="." instance=ExtResource("1_mp1m6")]
+position = Vector2(86, 23)
+
+[node name="Node2D15" parent="." instance=ExtResource("1_mp1m6")]
+position = Vector2(107, 23)
+
+[node name="Node2D16" parent="." instance=ExtResource("1_mp1m6")]
+position = Vector2(64, 45)
+
+[node name="Node2D17" parent="." instance=ExtResource("1_mp1m6")]
+position = Vector2(86, 46)
+
+[node name="Node2D18" parent="." instance=ExtResource("1_mp1m6")]
+position = Vector2(107, 46)
+
+[node name="Node2D19" parent="." instance=ExtResource("1_mp1m6")]
+position = Vector2(-1, 64)
+
+[node name="Node2D20" parent="." instance=ExtResource("1_mp1m6")]
+position = Vector2(21, 65)
+
+[node name="Node2D21" parent="." instance=ExtResource("1_mp1m6")]
+position = Vector2(42, 65)
+
+[node name="Node2D22" parent="." instance=ExtResource("1_mp1m6")]
+position = Vector2(-2, 84)
+
+[node name="Node2D23" parent="." instance=ExtResource("1_mp1m6")]
+position = Vector2(20, 85)
+
+[node name="Node2D24" parent="." instance=ExtResource("1_mp1m6")]
+position = Vector2(41, 85)
+
+[node name="Node2D25" parent="." instance=ExtResource("1_mp1m6")]
+position = Vector2(-2, 107)
+
+[node name="Node2D26" parent="." instance=ExtResource("1_mp1m6")]
+position = Vector2(20, 108)
+
+[node name="Node2D27" parent="." instance=ExtResource("1_mp1m6")]
+position = Vector2(41, 108)
+
+[node name="Node2D28" parent="." instance=ExtResource("1_mp1m6")]
+position = Vector2(62, 65)
+
+[node name="Node2D29" parent="." instance=ExtResource("1_mp1m6")]
+position = Vector2(84, 66)
+
+[node name="Node2D30" parent="." instance=ExtResource("1_mp1m6")]
+position = Vector2(105, 66)
+
+[node name="Node2D31" parent="." instance=ExtResource("1_mp1m6")]
+position = Vector2(61, 85)
+
+[node name="Node2D32" parent="." instance=ExtResource("1_mp1m6")]
+position = Vector2(83, 86)
+
+[node name="Node2D33" parent="." instance=ExtResource("1_mp1m6")]
+position = Vector2(104, 86)
+
+[node name="Node2D34" parent="." instance=ExtResource("1_mp1m6")]
+position = Vector2(61, 108)
+
+[node name="Node2D35" parent="." instance=ExtResource("1_mp1m6")]
+position = Vector2(83, 109)
+
+[node name="Node2D36" parent="." instance=ExtResource("1_mp1m6")]
+position = Vector2(104, 109)

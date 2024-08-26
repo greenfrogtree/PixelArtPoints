@@ -1,0 +1,45 @@
+[gd_scene load_steps=10 format=3 uid="uid://dbm4nferl4eax"]
+
+[ext_resource type="Script" path="res://partcile1.gd" id="1_omx3k"]
+[ext_resource type="Script" path="res://Particle.gd" id="1_ri425"]
+[ext_resource type="Shader" path="res://Particle.gdshader" id="2_47a7l"]
+[ext_resource type="Texture2D" uid="uid://cyr80o2y3jqyq" path="res://Sprite-0002.png" id="4_hws8s"]
+[ext_resource type="Script" path="res://Sprite-0002.gd" id="5_oy5pm"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_v5gdp"]
+resource_local_to_scene = true
+shader = ExtResource("2_47a7l")
+shader_parameter/value = null
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_sk26n"]
+resource_local_to_scene = true
+shader = ExtResource("2_47a7l")
+shader_parameter/value = null
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_ofp10"]
+load_path = "res://.godot/imported/Circle4.png-c32e7232d95761f18d6a4a05bd490e98.ctex"
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_6014x"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_omx3k")
+
+[node name="RigidBody2D" type="RigidBody2D" parent="."]
+gravity_scale = 0.0
+script = ExtResource("1_ri425")
+
+[node name="Sprite-0002" type="Sprite2D" parent="RigidBody2D"]
+visible = false
+material = SubResource("ShaderMaterial_v5gdp")
+scale = Vector2(0.312, 0.312)
+texture = ExtResource("4_hws8s")
+script = ExtResource("5_oy5pm")
+
+[node name="Circle" type="Sprite2D" parent="RigidBody2D"]
+material = SubResource("ShaderMaterial_sk26n")
+position = Vector2(-8.04663e-07, 3.57628e-07)
+scale = Vector2(0.3125, 0.3125)
+texture = SubResource("CompressedTexture2D_ofp10")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="RigidBody2D"]
+shape = SubResource("CircleShape2D_6014x")
